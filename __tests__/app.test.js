@@ -16,7 +16,7 @@ beforeEach(() => {
 afterAll(() => {
 	return db.end();
 });
-// hiyaaaaa
+
 describe.skip("GET /api", () => {
 	test("200: Responds with an object detailing the documentation for each endpoint", () => {
 		return request(app)
